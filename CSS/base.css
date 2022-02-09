@@ -1,4 +1,5 @@
 :root{
+
     /* Colors */
     --color-primary:#a597e7;
     --color-secondary:#6c757d;
@@ -13,7 +14,6 @@
     --color-transparent:transparent;
     --color-border:#dee2e6;
     --color-dark-transparent: rgba(0, 0, 0, 0.2);
-
 
 /* Display */
 --display-xss: 1rem;
@@ -62,6 +62,34 @@
 --border-transparent: .1 solid var(--color-transparent);
 
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-dark);
+    font-size: var(--display-sm);
+    min-height: 100vh;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 { font-family:"Dosis", "Open Sans", sans-serif; font-weight: 70; letter-spacing: .05rem; }
+ .ht, h1 { font-size: var(--distance-13); }
+
 /* Background colors */
 .bg-primary, .btn-primary { background-color:var(--color-primary); }
 .bg-secondary, .btn-secondary {background-color:var(--color-secondary); }
