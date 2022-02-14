@@ -1,5 +1,6 @@
 :root{
 
+
     /* Colors */
     --color-primary:#a597e7;
     --color-secondary:#6c757d;
@@ -15,6 +16,8 @@
     --color-border:#dee2e6;
     --color-dark-transparent: rgba(0, 0, 0, 0.2);
 
+
+
 /* Display */
 --display-xss: 1rem;
 --display-xs: 1.4rem;
@@ -24,10 +27,14 @@
 --display-xl: 2.5rem;
 --display-xxl: 3rem;
 
+
+
 /* Lineheight */
 --line-height-sm: 1rem;
 --line-height-md: 1.6rem;
 --line-height-lg: 3rem;
+
+
 
 /* Distance */
 --distance-0: 0rem;
@@ -47,9 +54,13 @@
 --distance-14: 3.75rem;
 --distance-15: 4rem;
 
+
+
 /* Shadows */
 --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, .1);
 --shadow-small-large: .25rem .25rem 0 rgba(0, 0, 0, .1);
+
+
 
 /* Borders */
 --border-xs-white: 0.1rem solid var(--color-white);
