@@ -1,7 +1,9 @@
-.d-flex {
-    display: flex;
-}
+/* Display */
 
-.flex-grow{
-    flex-grow: 1;
-}
+
+.d-flex { display: flex; }
+
+/* Flex */
+
+
+.flex-grow { flex-grow: 1; }
