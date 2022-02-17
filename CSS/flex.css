@@ -4,9 +4,13 @@
 .d-flex { display: flex; }
 
 /* Flex */
-
-
 .flex-grow { flex-grow: 1; }
+.flex-row { flex-direction: row;}
+.flex-column { flex-direction: column;}
+
+
+/* Align and justify */
 
 .justify-content-between { justify-content: space-between;}
 .align-items-center {align-items: center; }
+.justify-content-center { justify-content: center;}
