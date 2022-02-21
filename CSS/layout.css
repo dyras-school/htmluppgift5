@@ -76,6 +76,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 /* Borders */
 .border-small-white {border: var(--border-xs-white);}
 .border-radius {border-radius: var(--border-radius-sm);}
+.border-bottom-xs {border-bottom: var(--border-xs); }
 
 /* Positioning */
 .position-relative { position: relative !important;}
