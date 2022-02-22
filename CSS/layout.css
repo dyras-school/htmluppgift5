@@ -37,6 +37,9 @@
 .p-12 { padding: var(--distance-12);}
 .p-15 { padding: var(--distance-15);}
 
+.pr-12, .px-12 { padding-right: var(--distance-12); }
+.pl-12, .px-12 { padding-left: var(--distance-12); }
+
 /* Typography */
 .text-decoration-none {text-decoration: none;}
 .text-center { text-align: center;}
@@ -77,9 +80,11 @@
 
 /*  Circle */
 .circle { border-radius: 100%;}
+.icon-circle {width: 6.2rem; height: 6.2rem; line-height: 6rem;}
 
 /* Shadow light */
-.shadow-sm { box-shadow: var(--shadow-small-light);}
+.shadow-sm { box-shadow: var(--shadow-small-light); }
+.shadow-lg { box-shadow: var(--shadow-large-light); }
 
 /* Buttons */
 nav div a:not(:first-child) { margin-left: var(--distance-12);}
@@ -94,6 +99,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-small-white {border: var(--border-xs-white);}
 .border-radius {border-radius: var(--border-radius-sm);}
 .border-bottom-xs {border-bottom: var(--border-xs); }
+.border-sm {border: var(--border-sm);}
 
 /* Positioning */
 .position-relative { position: relative !important;}
@@ -104,3 +110,8 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* Features */
+.f-width {max-width: 33%; }
+
+.icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375rem;}
