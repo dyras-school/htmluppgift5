@@ -85,6 +85,7 @@
 /*  Circle */
 .circle { border-radius: 100%;}
 .icon-circle {width: 6.2rem; height: 6.2rem; line-height: 6rem;}
+.circle-lg { width: 15rem; height: 15rem;}
 
 /* Shadow light */
 .shadow-sm { box-shadow: var(--shadow-small-light); }
