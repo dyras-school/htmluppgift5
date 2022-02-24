@@ -1,5 +1,6 @@
 /* Widths */
 .max-width {max-width: 192rem;}
+.card-width { max-width: 60rem; }
 
 /* Margins */
 .mr-auto, .mx-auto {margin-right: auto;}
@@ -65,6 +66,7 @@
 
 /* Images */
 .logo-width {max-width: 13rem;}
+.img-lg-width { max-width: 60%;}
 
 /* Slideshow */
 .slider-width { width: 400%;}
